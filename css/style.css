@@ -1,0 +1,42 @@
+/* General Website Style rules */
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-color: aliceblue;
+  }
+
+  #header-container {
+      display: flex;
+    
+      align-content: center;
+      justify-content: center;
+  }
+  #header-container div{
+     
+      align-items: center;
+      margin: 20px;
+      width: 100%;
+      padding: 10px;
+  }
+  #header-container .logo {
+    position: relative;
+    right: 120px;
+    top: 1px;
+  }
+
+
+  .table-container {
+
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 2px;
+
+  }
+  table, th, td {
+ 
+    text-align: right;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
